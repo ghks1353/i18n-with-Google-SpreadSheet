@@ -99,7 +99,7 @@ url =
 	"/export?format=csv&id=" +
 	spreadSheetID +
 	"&gid=" +
-	spreadSheetGID;
+	spreadSheetGID + "&seed=" + String(new Date().getTime());
 
 console.log("[i18n] Find me on: https://github.com/ghks1353");
 
